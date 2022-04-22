@@ -1,0 +1,14 @@
+package com.service;
+
+import java.util.Arrays;
+import java.util.List;
+import com.bean.Product;
+
+public class ProductService {
+
+	List<Product> listOfProduct;
+	
+	public ProductService() {
+		listOfProduct= Array.asList(new Product(1,"Tv",12000),new Product(2,"COmputer",14000),new Product(3,"Laptop",16000));
+	}
+}

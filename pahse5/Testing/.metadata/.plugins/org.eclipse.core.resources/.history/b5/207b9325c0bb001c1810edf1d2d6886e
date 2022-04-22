@@ -1,0 +1,16 @@
+package com;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+public class SimpleTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		System.setProperty("webdriver.chrome.driver","C:\\Program Files\\chromedriver.exe");
+		System.out.println("Driver loaded successfully..");
+		WebDriver driver = new ChromeDriver();
+		driver.get("C:\\bhanu\\files\\pahse5\\selenium\\SeleliumTestApp\\index.html");
+	}
+
+}

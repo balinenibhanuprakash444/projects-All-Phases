@@ -1,0 +1,3 @@
+# jsp view details
+spring.mvc.view.prefix: /
+spring.mvc.view.suffix: .jsp

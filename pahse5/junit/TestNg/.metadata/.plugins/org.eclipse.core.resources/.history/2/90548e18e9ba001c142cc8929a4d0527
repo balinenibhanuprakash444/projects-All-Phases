@@ -1,0 +1,14 @@
+package test;
+
+import org.testng.annotations.Test;
+
+import com.service.Operation;
+
+public class OperationTest {
+  @Test
+  public void f() {
+	  Operation op = new Operation();
+	  int result = op.add(10,20);
+	  asserEquals(result,30);
+  }
+}

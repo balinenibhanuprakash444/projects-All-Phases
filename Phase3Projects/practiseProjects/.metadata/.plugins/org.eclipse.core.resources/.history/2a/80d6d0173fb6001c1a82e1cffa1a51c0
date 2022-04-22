@@ -1,0 +1,5 @@
+package com.project.SportyShoes;
+
+public class GlobalExceptionHandeler {
+
+}

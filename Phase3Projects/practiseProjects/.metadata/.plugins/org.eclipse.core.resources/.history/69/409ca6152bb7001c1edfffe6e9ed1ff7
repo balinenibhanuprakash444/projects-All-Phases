@@ -1,0 +1,5 @@
+package om.project.SportyShoes.service;
+
+public class LoginService {
+
+}

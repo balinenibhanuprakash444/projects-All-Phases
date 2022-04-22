@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\phase4\\css programms"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "css programms"
+	}
+}

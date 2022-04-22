@@ -1,0 +1,26 @@
+package test;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+import com.bean.Employee;
+import com.service.EmployeeService;
+
+class EmployeeServiceTest {
+
+	@Test
+	void testSayHello() {
+		EmployeeService es = new EmployeeService();
+		String result = es.sayHello("Ravi");
+		asserEquals("Welcome to Junit 5 testing Ravi",result);
+	}
+	
+		@Test
+		public void testCheckUser() {
+			EmployeeService es = new EmployeeService();
+			String result = es.checkUser("Ravi, "123");
+					assertEquals("failure",result);
+		}
+
+}

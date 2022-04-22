@@ -1,0 +1,5 @@
+package com.project.Authentication.repositories;
+
+public interface AuthenticationRepositoryextendsCrudRepository<User, Integer> {
+
+}

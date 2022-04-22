@@ -1,0 +1,18 @@
+package com.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+@Service
+public class EmoloyeeService {
+
+@Autowired
+EmployeeDao employeeDao;
+
+public String storeEmployee(Employee emp) {
+	if(emp.getSalary()<12000) {
+		return "salary must be > 12000");
+	}
+}
+	
+}

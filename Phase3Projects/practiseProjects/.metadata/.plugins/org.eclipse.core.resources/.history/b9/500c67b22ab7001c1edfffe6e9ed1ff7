@@ -1,0 +1,5 @@
+package com.project.SportyShoes.jdbc;
+
+public interface UserDetailsRepositoryextendsJpaRepository<UserDetails, Long> {
+
+}

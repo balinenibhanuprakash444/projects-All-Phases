@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/JavaScript">
+        function operation(){
+            // alert("Event Fired...")
+            //var name = document.getElementsByName("user")[0].value;
+            //alert("Welcome user "+name);
+            var pTags = document.getElementsByTagName("p");
+        alert(pTags.length)
+        for(var i=0;i<pTags.length;i++){
+            alert(pTags[i].innerHTML)
+        }
+         var name = document.getElementsById("n1".value);
+        document.getElementById("n2").value=name;
+        document.getElementById("n3").innerHTML=name;
+        }
+    </script>
+</head>
+<body>
+    <p>Welcome to UI Training</p>
+    <p>Welcome to Java Script Training</p>
+    <p>Welcome to Angular Training</p>
+    <label>Name</label> : <input type="text" name="user" id="n1"/><br/>
+    <label>Welcome Msg </label> :<input type="text" name="out" id="n2" readonly/><br/>
+    <div id="n3">
+        </div>
+        <br/>
+        <input type="button" value="click here" onclick="operation()"/>  
+</body>
+</html>

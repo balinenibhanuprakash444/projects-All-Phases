@@ -1,0 +1,12 @@
+package com.project.SportyShoes.jdbc;
+
+import com.project.SportyShoes.entity.Login;
+
+public class LoginRepository {
+
+	public Login findByUsernameAndPassword(String username, String password) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
