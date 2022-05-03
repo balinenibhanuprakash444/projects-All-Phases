@@ -1,0 +1,19 @@
+package test;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+import com.service.EmployeeService;
+
+class EmployeeServiceTest {
+
+	@Test
+	void testSayHello() {
+		//fail("Not yet implemented");
+		EmployeeService es = new EmployeeService();
+		String result = es.sayHello("Ravi");
+		assertEquals("Welcome to Junit 5 testing Ravi", result);
+	}
+
+}

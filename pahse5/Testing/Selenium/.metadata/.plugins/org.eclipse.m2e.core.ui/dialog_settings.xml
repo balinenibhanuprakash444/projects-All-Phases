@@ -49,6 +49,7 @@
 		</list>
 		<list key="artifactId">
 			<item value="SeleniumTestLoginPage"/>
+			<item value="SeleniumTestApp"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

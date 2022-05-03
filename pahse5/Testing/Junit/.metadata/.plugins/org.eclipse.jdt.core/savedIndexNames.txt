@@ -1,0 +1,19 @@
+INDEX VERSION 1.131+C:\bhanu\files\phase5projects\Testing\Junit\.metadata\.plugins\org.eclipse.jdt.core
+615086585.index
+1076833953.index
+3076038699.index
+3141148988.index
+3289463617.index
+1888691412.index
+472463131.index
+4165161047.index
+2601398111.index
+1925359832.index
+2395386003.index
+3921190324.index
+3366133867.index
+2536004556.index
+250392713.index
+2507047459.index
+1865797976.index
+3356138387.index
